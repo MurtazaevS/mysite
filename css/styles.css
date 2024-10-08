@@ -5069,3 +5069,8 @@ html.no-csstransitions .s-hero__content {
 .ss-copyright a:hover {
     color: var(--color-1);
 }
+
+.s-footer__block--end::before {
+    display: none; /* Убирает псевдоэлемент */
+    content: none; /* Очищает содержимое */
+}
