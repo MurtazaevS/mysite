@@ -5074,3 +5074,46 @@ html.no-csstransitions .s-hero__content {
     display: none; /* Убирает псевдоэлемент */
     content: none; /* Очищает содержимое */
 }
+
+/* ... (previous CSS remains unchanged) ... */
+
+/* Footer Styles */
+.footer {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: calc(2 * var(--space-unit)) 0;
+    text-align: center;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__item {
+    margin: 0 var(--space-unit);
+}
+
+.footer__item a {
+    color: white;
+}
+
+.footer__copyright {
+    margin-top: var(--space-unit);
+    font-size: 0.875rem;
+}
+
+/* Fix for .s-footer__block--end::before */
+.s-footer__block--end::before {
+    content: none;
+}
+
+/* ... (rest of the CSS remains unchanged) ... */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
