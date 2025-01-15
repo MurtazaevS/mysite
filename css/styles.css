@@ -4994,8 +4994,8 @@ html.no-csstransitions .s-hero__content {
 
 }
 #hero h1 {
-    transition: letter-spacing 0.6s ease-in-out; /* Плавный переход */
-    font-size: 100px; /* размер текста "Работа есть" */
+    transition: letter-spacing 0.3s ease-in-out; /* Плавный переход */
+    font-size: 80px; /* размер текста "Работа есть" */
   }
   
   #hero h1:hover {
